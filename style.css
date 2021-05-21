@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: right;
+}
+
+.logo{
+    float: left;
+    font-size: 25px;
+    padding: 14px 16px;
+    color: red;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    margin-right: 1px;
+    
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+}
+
+.piggy{
+    background: url(/piggy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.eagle{
+    background: url(/eagle.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: red;
+}
+
+.birdie{
+    background: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bap{
+    background: url(/birdie\ and\ piggy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.red{
+    background: url(/red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
